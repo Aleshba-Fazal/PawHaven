@@ -69,27 +69,30 @@ const pets = [
       "Rocky is a sweet older dog who would love a quiet and loving home.",
   },
   {
-    id: 6,
-    name: "Oliver",
-    type: "Rabbit",
-    breed: "Friendly Rabbit",
-    age: "6 months",
-    ageGroup: "Baby",
-    image: "/images/rabbit1.jpg",
-    description:
-      "Oliver is a friendly bunny who enjoys fresh vegetables and gentle attention.",
-  },
-  {
-    id: 7,
-    name: "Rosella",
-    type: "Bird",
-    breed: "Australian Parrot",
-    age: "3 months",
-    ageGroup: "Baby",
-    image: "/images/parrot.jpg",
-    description:
-      "Rosella is an energetic and playful bird who loves interacting with people.",
-  },
+  id: 6,
+  name: "Milo",
+  type: "Cat",
+  breed: "British Shorthair",
+  age: "6 months",
+  ageGroup: "Kitten",
+  image: "/images/cat4.jpg",
+  description:
+    "Milo is a friendly kitten who enjoys cozy naps and gentle attention.",
+},
+ 
+   {
+  id: 7,
+  name: "Zeus",
+  type: "Dog",
+  breed: "Siberian Husky",
+  age: "3 months",
+  ageGroup: "Puppy",
+  image: "/images/dog4.jpg",
+  description:
+    "Zeus is an energetic and playful puppy who loves interacting with people.",
+},
+
+  
   {
     id: 8,
     name: "Daisy",
@@ -474,7 +477,7 @@ function Home() {
               <img
                 src="/images/welcome.jpg"
                 alt="Happy pets waiting for loving homes"
-                className="h-[420px] w-full object-cover sm:h-[500px]"
+                className="h-[420px] w-full object-fill sm:h-[500px]"
               />
 
               <div className="absolute bottom-5 left-5 right-5 rounded-2xl border border-white/70 bg-white/90 p-4 shadow-xl backdrop-blur-md">
@@ -1027,27 +1030,27 @@ function FormField({
 
 const stories = [
   {
-    name: "John & Milo",
+    name: "John",
     rating: 5,
-    image: "/images/happy1.jpg",
+    image: "/images/man1.jpg",
     text: "The adoption journey was simple and wonderful. We found a beautiful companion and couldn't be happier.",
   },
   {
-    name: "Sarah & Daisy",
+    name: "Sarah",
     rating: 5,
-    image: "/images/cat3.jpg",
+    image: "/images/girl1.jpg",
     text: "Daisy completely changed our home. She is playful, loving, and now feels like she has always been part of our family.",
   },
   {
-    name: "Emily & Buddy",
+    name: "Emily",
     rating: 5,
-    image: "/images/dog1.jpeg",
+    image: "/images/girl2.jpg",
     text: "We were nervous about adopting for the first time, but the process was easy to understand and Buddy is amazing.",
   },
   {
-    name: "David & Rocky",
+    name: "David",
     rating: 5,
-    image: "/images/dog3.jpg",
+    image: "/images/man2.jpg",
     text: "Rocky has brought so much happiness into our family. We are incredibly grateful for his second chance.",
   },
 ];
