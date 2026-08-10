@@ -1,16 +1,93 @@
-# React + Vite
+# 🐾 PawHaven
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PawHaven is a modern and responsive pet adoption website designed to help people discover pets looking for loving homes.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 **[Visit PawHaven](https://aleshba-fazal.github.io/PawHaven/)**
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🐶 Browse available pets
+- 🐱 View pet information
+- ❤️ Pet adoption section
+- 📖 Pet adoption stories
+- ℹ️ About PawHaven
+- 📱 Fully responsive design
+- 🎨 Modern and user-friendly interface
+- ⚛️ React-based navigation
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- Tailwind CSS
+- JavaScript
+- React Router
+- HTML5
+- CSS3
+
+## 📂 Project Structure
+
+```text
+PawHaven/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 🚀 Run Locally
+
+If you want to run PawHaven on your computer:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Aleshba-Fazal/PawHaven.git
+```
+
+### 2. Open the project
+
+```bash
+cd PawHaven
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Then open the local URL provided by Vite in your browser.
+
+## 🚀 Deployment
+
+PawHaven is deployed using GitHub Pages.
+
+### 🌐 Live Website
+
+👉 **[https://aleshba-fazal.github.io/PawHaven/](https://aleshba-fazal.github.io/PawHaven/)**
+
+## 👩‍💻 Author
+
+**Aleshba Fazal**
+
+BS Computer Science Student
+
+---
+
+⭐ If you like this project, feel free to star the repository!
